@@ -20,6 +20,7 @@
 }
 .fields input::placeholder, .fields select:invalid { color: var(--body); opacity: 1; }
 .fields [aria-invalid="true"] { border-color: var(--error); }
+.card [aria-invalid="true"] { scroll-margin-block: 24px 40px; }
 .consent { margin-top: 20px; }
 .consent label { display: flex; align-items: start; gap: 9px; color: var(--body); font-size: 13px; line-height: 22px; cursor: pointer; }
 .consent input { flex: 0 0 17px; width: 17px; height: 17px; margin: 2px 0 0; accent-color: var(--blue); }
@@ -32,7 +33,7 @@
 .successBody { margin-top: 14px; line-height: 24px; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 24px; }
 .actions button { min-height: 36px; border: 0; padding: 0; background: transparent; color: var(--blue); font-size: 14px; font-weight: 700; cursor: pointer; }
-.actions button:hover { text-decoration: underline; }
+.actions button:hover, .actions button:active { text-decoration: underline; }
 .actions .remove { color: var(--error); }
 
 @media (width >= 1024px) {
@@ -48,7 +49,9 @@
   .card h3 { font-size: 22px; line-height: 27px; }
   .fields { margin-top: 16px; }
   .consent { margin-top: 18px; }
-  .consent label { line-height: 19px; }
+  .consent label { min-height: 44px; padding-block: 3px; line-height: 19px; }
   .consent span { max-width: 132px; }
-  .submit { font-size: 14px; }
+  .submit { margin-top: 14px; font-size: 14px; }
+  .actions { gap: 4px 24px; margin-top: 16px; }
+  .actions button { min-height: 44px; }
 }

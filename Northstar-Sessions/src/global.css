@@ -46,6 +46,7 @@ section[id] { scroll-margin-top: 24px; }
 }
 
 .primary:hover { background: #204ab7; }
+.primary:active { background: #193c96; }
 
 .skip-link {
   position: absolute;
