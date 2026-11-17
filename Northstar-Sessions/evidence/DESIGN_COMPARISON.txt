@@ -1,0 +1,17 @@
+Design bounds in CSS px (x, y, width, height). Compared with the supplied SVG references.
+
+1440px viewport
+illustration: reference [824, 160, 456, 342]; measured [824, 160, 456, 342]; max delta 0px
+cta: reference [160, 449, 218, 52]; measured [160, 450, 218, 52]; max delta 1px
+formCard: reference [768, 871, 512, 487]; measured [768, 870, 512, 487]; max delta 1px
+name: reference [800, 965, 448, 44]; measured [800, 965, 448, 44]; max delta 0px
+save: reference [800, 1233, 448, 48]; measured [800, 1233, 448, 48]; max delta 0px
+cards: reference [160, 636, 352, 165, 544, 636, 352, 165, 928, 636, 352, 165]; measured [160, 635, 352, 165, 544, 635, 352, 165, 928, 635, 352, 165]; max delta 1px
+
+390px viewport
+illustration: reference [24, 485, 342, 256.5]; measured [24, 487, 342, 256.5]; max delta 2px
+cta: reference [24, 365, 342, 50]; measured [24, 367, 342, 50]; max delta 2px
+formCard: reference [24, 1600, 342, 490]; measured [24, 1602.5, 342, 488]; max delta 2.5px
+name: reference [44, 1689, 302, 44]; measured [44, 1691.5, 302, 44]; max delta 2.5px
+save: reference [44, 1971, 302, 48]; measured [44, 1973.5, 302, 48]; max delta 2.5px
+cards: reference [24, 842, 342, 145, 24, 1007, 342, 145, 24, 1172, 342, 145]; measured [24, 843.5, 342, 145, 24, 1008.5, 342, 145, 24, 1173.5, 342, 145]; max delta 1.5px

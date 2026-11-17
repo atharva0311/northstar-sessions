@@ -1,0 +1,52 @@
+{
+  "brand": "NORTHSTAR SESSIONS",
+  "byline": "WITH ROBERT JENKINS",
+  "nav": [
+    "How it works",
+    "Register"
+  ],
+  "eyebrow": "A SMALL PLAN. A CLEARER DIRECTION.",
+  "headline": "Make room for your next move.",
+  "intro": "A focused planning session to help you name a priority, choose a next action and build a week with more intention.",
+  "cta": "Start your registration",
+  "secondary": "See how it works",
+  "features_heading": "A simple way forward.",
+  "features": [
+    {
+      "title": "Choose a priority",
+      "body": "Turn a long list into one clear focus for the week."
+    },
+    {
+      "title": "Make a small plan",
+      "body": "Break your next move into a practical first action."
+    },
+    {
+      "title": "Begin with clarity",
+      "body": "Leave with a simple plan you can return to."
+    }
+  ],
+  "register_heading": "Your next step starts here.",
+  "register_intro": "Add your details to save your registration on this device. No account or password is needed.",
+  "form_title": "Register your interest",
+  "name_label": "Full name",
+  "name_placeholder": "Your full name",
+  "email_label": "Email address",
+  "email_placeholder": "you@example.com",
+  "role_label": "I am a",
+  "roles": [
+    "Choose your role",
+    "Student",
+    "Professional",
+    "Other"
+  ],
+  "consent": "Save my registration on this device.",
+  "privacy": "Your details stay in this browser. Nothing is sent to a server.",
+  "submit": "Save my registration",
+  "success_title": "You are registered on this device.",
+  "success_body": "Your details are saved in this browser. You can update them or remove your registration below.",
+  "update": "Update details",
+  "remove": "Remove registration",
+  "removed": "Your registration has been removed from this browser.",
+  "footer": "Northstar Sessions by Robert Jenkins",
+  "footer_note": "Choose one priority. Take one clear step."
+}

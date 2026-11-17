@@ -1,0 +1,23 @@
+NORTHSTAR SESSIONS | ROBERT JENKINS
+SkillNexa job ID: 6yu9lANrLyYmpVibYhtc
+Verification date: 17 November 2026 (India)
+
+COMPLETED
+Responsive React landing page with the supplied copy, logo and WebP illustration.
+Browser-only registration with consent, validation, restore, update and removal.
+Airbnb lint and Vite production build. The production preview served the browser tests.
+Registration: 10 of 10 supplied cases passed.
+Responsive audit: 8 of 8 supplied widths passed with no horizontal overflow or console errors.
+Uncompressed production files: 219,787 bytes total, including the 7,834-byte hero WebP.
+Evidence: full-page screenshots for all eight widths and error and success states.
+
+NOT TESTED
+Hosted production site, reviewer access, physical devices, and screen-reader output.
+Local checks ran in headless Chrome 157.0.8103.80 using emulated viewport sizes.
+
+PENDING USER ACTION
+GitHub repository URL: Pending authorized GitHub repository creation and push.
+Live deployment HTTPS URL: Pending authorized Netlify deployment and retest.
+Google Drive folder URL: Pending creation and Viewer sharing with the assigned reviewer.
+SkillNexaHub submission: Pending upload and confirmation in the assigned dashboard.
+Follow SUBMISSION_STEPS.md and replace the pending entries above with verified links.

@@ -1,0 +1,22 @@
+.features { margin-top: 68px; }
+.features h2 { font-size: 32px; line-height: 40px; }
+.grid { display: grid; gap: 32px; margin-top: 25px; padding: 0; list-style: none; }
+.card { min-width: 0; min-height: 165px; padding: 31px 24px 20px; border-radius: 16px; background: var(--white); }
+.number { display: block; color: var(--blue); font-size: 12px; font-weight: 700; line-height: 16px; }
+.card h3 { margin-top: 15px; font-size: 21px; line-height: 26px; }
+.card p { max-width: 215px; margin-top: 10px; font-size: 16px; line-height: 23px; }
+.card:last-child p { max-width: 185px; }
+
+@media (width >= 640px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (width >= 1024px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+@media (width < 640px) {
+  .features { margin-top: 42px; }
+  .features h2 { font-size: 28px; line-height: 35px; }
+  .grid { margin-top: 23px; gap: 20px; }
+  .card { min-height: 145px; padding: 18px 20px 16px; }
+  .number { font-size: 11px; line-height: 15px; }
+  .card h3 { margin-top: 13px; }
+  .card p { max-width: 239px; margin-top: 10px; font-size: 15px; }
+  .card:nth-child(2) p, .card:last-child p { max-width: 215px; }
+}

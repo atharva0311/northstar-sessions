@@ -1,0 +1,13 @@
+.header { display: flex; align-items: center; justify-content: space-between; padding-top: 35px; }
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand strong { display: block; font-size: 15px; line-height: 18px; }
+.brand p { margin-top: 4px; font-size: 10px; font-weight: 700; line-height: 12px; }
+.nav { display: flex; align-items: center; gap: clamp(24px, 4.45vw, 64px); font-size: 14px; font-weight: 700; }
+.features { color: var(--body); text-decoration: none; }
+.features:hover { text-decoration: underline; }
+.register { min-width: 120px; min-height: 48px; }
+
+@media (width < 640px) {
+  .header { padding-top: 28px; }
+  .nav { display: none; }
+}

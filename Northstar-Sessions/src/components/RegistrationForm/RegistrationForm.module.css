@@ -1,0 +1,54 @@
+.section { display: grid; gap: 44px; margin-top: 70px; }
+.intro { padding-top: 29px; }
+.intro h2 { max-width: 350px; font-size: 42px; line-height: 50px; }
+.intro p { max-width: 332px; margin-top: 49px; font-size: 18px; line-height: 29px; }
+.card { min-width: 0; padding: 22px 32px 27px; border-radius: 16px; background: var(--white); }
+.card h3 { font-size: 24px; line-height: 29px; }
+.fields { display: grid; gap: 11px; margin-top: 18px; }
+.fields label { display: block; font-size: 14px; font-weight: 700; line-height: 18px; }
+.fields input, .fields select {
+  width: 100%;
+  min-width: 0;
+  height: 44px;
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding-inline: 13px;
+  background: var(--white);
+  color: var(--navy);
+  font-size: 14px;
+}
+.fields input::placeholder, .fields select:invalid { color: var(--body); opacity: 1; }
+.fields [aria-invalid="true"] { border-color: var(--error); }
+.consent { margin-top: 20px; }
+.consent label { display: flex; align-items: start; gap: 9px; color: var(--body); font-size: 13px; line-height: 22px; cursor: pointer; }
+.consent input { flex: 0 0 17px; width: 17px; height: 17px; margin: 2px 0 0; accent-color: var(--blue); }
+.submit { width: 100%; min-height: 48px; margin-top: 20px; font-size: 15px; }
+.privacy { max-width: 180px; margin-top: 13px; font-size: 12px; line-height: 18px; }
+.error, .removed { margin-top: 6px; font-size: 13px; line-height: 19px; }
+.error { color: var(--error); }
+.success { padding-block: 10px; }
+.state { margin-bottom: 14px; color: var(--blue); font-size: 11px; font-weight: 700; }
+.successBody { margin-top: 14px; line-height: 24px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 24px; }
+.actions button { min-height: 36px; border: 0; padding: 0; background: transparent; color: var(--blue); font-size: 14px; font-weight: 700; cursor: pointer; }
+.actions button:hover { text-decoration: underline; }
+.actions .remove { color: var(--error); }
+
+@media (width >= 1024px) {
+  .section { grid-template-columns: minmax(0, 1fr) minmax(0, 45.7143%); align-items: start; }
+}
+
+@media (width < 640px) {
+  .section { gap: 48px; margin-top: 42px; }
+  .intro { padding-top: 0; }
+  .intro h2 { max-width: 270px; font-size: 32px; line-height: 39px; }
+  .intro p { max-width: 275px; margin-top: 41px; font-size: 15px; line-height: 25px; }
+  .card { padding: 20px; }
+  .card h3 { font-size: 22px; line-height: 27px; }
+  .fields { margin-top: 16px; }
+  .consent { margin-top: 18px; }
+  .consent label { line-height: 19px; }
+  .consent span { max-width: 132px; }
+  .submit { font-size: 14px; }
+}
